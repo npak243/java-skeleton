@@ -1,0 +1,12 @@
+version: "3"
+services:
+  db:
+    image: mysql:8
+    restart: "no"
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=true
+      - MYSQL_DATABASE=nflxpipoll
+      - MYSQL_USER=nflxpipoll_user
+      - MYSQL_PASSWORD=P@ssword123
+    ports:
+      - "3306:3306"
