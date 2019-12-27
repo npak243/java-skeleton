@@ -1,4 +1,4 @@
-# netflix-pi-polling
+# Java skeleton code
 
 ## Setup
 1. Java JDK 1.8
